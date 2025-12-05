@@ -32,9 +32,20 @@ export default defineConfig({
     emptyOutDir: true,
   },
   server: {
+    // allow external hosts in container/remote environments and
+    // configure HMR to use wss with the same host/port as the server
+    host: true,
     fs: {
       strict: true,
       deny: ["**/.*"],
     },
+    hmr:
+      process.env.NODE_ENV !== "production"
+        ? {
+            protocol: "wss",
+            host: process.env.HOST || "localhost",
+            port: Number(process.env.PORT || 5000),
+          }
+        : undefined,
   },
 });

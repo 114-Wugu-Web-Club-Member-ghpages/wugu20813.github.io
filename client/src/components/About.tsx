@@ -1,4 +1,4 @@
-import studyImg from "@assets/generated_images/Student_studying_lifestyle_photo_51a73af9.png";
+import studyImg from "@assets/generated_images/Student_profile_portrait_photo_d6755280.png";
 import codingImg from "@assets/generated_images/Coding_workspace_lifestyle_photo_b2ca2acb.png";
 import presentImg from "@assets/generated_images/Presentation_lifestyle_photo_2031f8e1.png";
 import journalImg from "@assets/generated_images/Creative_journaling_lifestyle_photo_e777bdb2.png";

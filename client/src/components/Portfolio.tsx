@@ -1,7 +1,7 @@
 import { ExternalLink, Github } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import dashboardImg from "@assets/generated_images/Web_dashboard_project_thumbnail_d51c6c0e.png";
+import dashboardImg from "@assets/generated_images/Coding_workspace_lifestyle_photo_b2ca2acb.png";
 import mobileImg from "@assets/generated_images/Mobile_app_project_thumbnail_9f1091aa.png";
 import aiImg from "@assets/generated_images/AI_project_thumbnail_59c1e701.png";
 import ecommerceImg from "@assets/generated_images/E-commerce_project_thumbnail_4502335f.png";
